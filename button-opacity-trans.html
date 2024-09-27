@@ -1,0 +1,80 @@
+
+<style>
+    .subscribe-button {
+        background-color: rgb(203, 3, 3);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer; 
+        margin-right: 8px;
+        transition: opacity 0.15s;
+    }
+.subscribe-button:hover {
+    opacity: 0.8;
+}
+.subscribe-button:active 
+{
+   opacity: 0.5;
+}
+</style>
+
+<!-- let's use the pseudo-class hover. Hover has to go inside "style" -->
+
+<style> 
+    .join-button {
+        background-color: white;
+        color: rgb(0, 132, 255);
+        border-color: rgb(0, 132, 255);
+        border-radius: 2px;
+        border-style: solid;
+        border-width: 1px;
+        height: 36px;
+        width: 62px;
+        cursor: pointer;
+        transition: background-color 0.15s, 
+        color 0.15s;
+    }
+    .join-button:hover {
+        background-color: rgb(0, 132, 255);
+        color: white;
+    }
+    .join-button:active
+    {
+        opacity: 0.7;
+    }
+</style>
+
+<style>
+    .tweet-button {
+        color: white;
+        background-color: rgb(30, 167, 222);
+        border-radius: 20px;
+        border: none;
+        height: 36px;
+        width: 74px;
+        font-weight: bold;
+        font-size: large;
+        cursor: pointer;
+        margin-left: 8px;
+    }
+
+    .tweet-button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); 
+    }
+</style>
+<!-- when I go over the button, shadow appears-->
+<button class="subscribe-button">
+    SUBSCRIBE
+</button>
+
+<button class="join-button">
+    JOIN
+</button>
+
+<button class="tweet-button">
+    Tweet    
+    </button>
+
+
