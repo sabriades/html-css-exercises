@@ -1,10 +1,41 @@
 
 <style>
     p {
-        font-style: Arial;
+        font-family: Verdana;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .title-text {
         font-weight: bold;
+        font-size: 20px;
+        color: black;
+    }
+    .sub-text {
+        font-size: 18px;
+        color:grey;
+    }
+    .description-text {
+        margin-top: 15px;
+        width: 300px;
+    }
+    .get-started {
+        margin-top: 20px;
+        color: white;
+        background-color: green;
+        border: none;
+        border-radius: 10px;
+        height: 35px;
+        width: 120px;
+        font-size: 15px;
+        font-family: Verdana;
+        cursor: pointer;
+        transition: opacity 0.15s;
+    }
+    .get-started:hover {
+        opacity: 0.9;
+    }
+    .get-started:active {
+        opacity: 0.8;
     }
 
 </style>
@@ -13,6 +44,17 @@
 <p class="title-text">
     HTML CSS Course
 </p>
+
 <p class="sub-text">
     Begineer to Pro
 </p>
+
+<p class="description-text"> 
+    In this course we'll learn the skills you need to become a developer
+</p>
+
+<a href="https://www.apple.com/store" target="_blank">
+<button class="get-started">
+    Get Started
+</button>
+</a>
