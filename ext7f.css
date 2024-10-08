@@ -1,0 +1,24 @@
+p {
+    font-family: Verdana;
+    font-size: 10px;
+    color: grey;
+}
+.login-box {
+    height: 20px;
+    width: 278px;
+}
+.email {
+    margin-bottom: 5px;
+}
+.button {
+    background-color: rgb(27, 73, 148);
+    color: white;
+    font-family: Verdana;
+    height: 35px;
+    width: 278px;
+    font-size: 12px;
+    border-radius: 50px;
+    border-style: none;
+    cursor: pointer;
+
+}
